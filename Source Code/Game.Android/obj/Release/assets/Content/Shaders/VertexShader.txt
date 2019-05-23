@@ -1,0 +1,17 @@
+#version 100
+
+uniform mat4 u_WVPMatrix;
+
+attribute vec3 a_Position;
+attribute vec2 a_TexCoord;
+attribute vec4 a_Colour;
+
+varying vec2 v_Uv;
+varying vec4 v_Colour;
+
+void main() 
+{
+	v_Colour = a_Colour;
+	v_Uv = a_TexCoord;
+	gl_Position = u_WVPMatrix * vec4(a_Position, 1.0);
+}

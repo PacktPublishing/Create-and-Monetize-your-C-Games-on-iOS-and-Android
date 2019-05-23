@@ -1,0 +1,434 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.InAppBilling.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.InAppBilling.Abstractions.BaseInAppBilling">
+            <summary>
+            Base implementation for In App Billing, handling disposables
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.BaseInAppBilling.InTestingMode">
+            <summary>
+            Gets or sets if in testing mode
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.ConnectAsync">
+            <summary>
+            Connect to billing service
+            </summary>
+            <returns>If Success</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.DisconnectAsync">
+            <summary>
+            Disconnect from the billing service
+            </summary>
+            <returns>Task to disconnect</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.GetProductInfoAsync(Plugin.InAppBilling.Abstractions.ItemType,System.String[])">
+            <summary>
+            Get product information of a specific product
+            </summary>
+            <param name="itemType">Type of product offering</param>
+            <param name="productIds">Sku or Id of the product(s)</param>
+            <returns>List of products</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.GetPurchasesAsync(Plugin.InAppBilling.Abstractions.ItemType,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Get all current purhcase for a specifiy product type.
+            </summary>
+            <param name="itemType">Type of product</param>
+            <param name="verifyPurchase">Verify purchase implementation</param>
+            <returns>The current purchases</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.PurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Purchase a specific product or subscription
+            </summary>
+            <param name="productId">Sku or ID of product</param>
+            <param name="itemType">Type of product being requested</param>
+            <param name="payload">Developer specific payload</param>
+            <param name="verifyPurchase">Verify Purchase implementation</param>
+            <returns>Purchase details</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.ConsumePurchaseAsync(System.String,System.String)">
+            <summary>
+            Consume a purchase with a purchase token.
+            </summary>
+            <param name="productId">Id or Sku of product</param>
+            <param name="purchaseToken">Original Purchase Token</param>
+            <returns>If consumed successful</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.ConsumePurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Consume a purchase
+            </summary>
+            <param name="productId">Id/Sku of the product</param>
+            <param name="payload">Developer specific payload of original purchase</param>
+            <param name="itemType">Type of product being consumed.</param>
+            <param name="verifyPurchase">Verify Purchase implementation</param>
+            <returns>If consumed successful</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.Dispose">
+            <summary>
+            Dispose of class and parent classes
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.Finalize">
+            <summary>
+            Dispose up
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.BaseInAppBilling.Dispose(System.Boolean)">
+            <summary>
+            Dispose method
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.ConsumptionState">
+            <summary>
+            State of consumable
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.ConsumptionState.NoYetConsumed">
+            <summary>
+            Has not been consumed yet
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.ConsumptionState.Consumed">
+            <summary>
+            Consumed
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.IInAppBilling">
+            <summary>
+            Interface for InAppBilling
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.IInAppBilling.InTestingMode">
+            <summary>
+            Gets or sets if in testing mode
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.ConnectAsync">
+            <summary>
+            Connect to billing service
+            </summary>
+            <returns>If Success</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.DisconnectAsync">
+            <summary>
+            Disconnect from the billing service
+            </summary>
+            <returns>Task to disconnect</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.GetProductInfoAsync(Plugin.InAppBilling.Abstractions.ItemType,System.String[])">
+            <summary>
+            Get product information of a specific product
+            </summary>
+            <param name="itemType">Type of product offering</param>
+            <param name="productIds">Sku or Id of the product(s)</param>
+            <returns>List of products</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.GetPurchasesAsync(Plugin.InAppBilling.Abstractions.ItemType,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Get all current purhcase for a specifiy product type.
+            </summary>
+            <param name="itemType">Type of product</param>
+            <param name="verifyPurchase">Verify purchase implementation</param>
+            <returns>The current purchases</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.PurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Purchase a specific product or subscription
+            </summary>
+            <param name="productId">Sku or ID of product</param>
+            <param name="itemType">Type of product being requested</param>
+            <param name="payload">Developer specific payload (can not be null)</param>
+            <param name="verifyPurchase">Verify Purchase implementation</param>
+            <returns>Purchase details</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.ConsumePurchaseAsync(System.String,System.String)">
+            <summary>
+            Consume a purchase with a purchase token.
+            </summary>
+            <param name="productId">Id or Sku of product</param>
+            <param name="purchaseToken">Original Purchase Token</param>
+            <returns>If consumed successful</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.IInAppBilling.ConsumePurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Consume a purchase
+            </summary>
+            <param name="productId">Id/Sku of the product</param>
+            <param name="payload">Developer specific payload of original purchase (can not be null)</param>
+            <param name="itemType">Type of product being consumed.</param>
+            <param name="verifyPurchase">Verify Purchase implementation</param>
+            <returns>If consumed successful</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.PurchaseError">
+            <summary>
+            Type of purchase error
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.BillingUnavailable">
+            <summary>
+            Billing system unavailable
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.DeveloperError">
+            <summary>
+            Developer issue
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.ItemUnavailable">
+            <summary>
+            Product sku not available
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.GeneralError">
+            <summary>
+            Other error
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.UserCancelled">
+            <summary>
+            User cancelled the purchase
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.AppStoreUnavailable">
+            <summary>
+            App store unavailable on device
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.PaymentNotAllowed">
+            <summary>
+            User is not allowed to authorize payments
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.PaymentInvalid">
+            <summary>
+            One of hte payment parameters was not recognized by app store
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.InvalidProduct">
+            <summary>
+            The requested product is invalid
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.ProductRequestFailed">
+            <summary>
+            The product request failed
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.RestoreFailed">
+            <summary>
+            Restoring the transaction failed
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseError.ServiceUnavailable">
+            <summary>
+            Network connection is down
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">
+            <summary>
+            Purchase exception
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException.PurchaseError">
+            <summary>
+            Type of error
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException.#ctor(Plugin.InAppBilling.Abstractions.PurchaseError,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="error"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException.#ctor(Plugin.InAppBilling.Abstractions.PurchaseError)">
+            <summary>
+            
+            </summary>
+            <param name="error"></param>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException.#ctor(Plugin.InAppBilling.Abstractions.PurchaseError,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="error"></param>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.InAppBillingProduct">
+            <summary>
+            Product being offered
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingProduct.Name">
+            <summary>
+            Name of the product
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingProduct.Description">
+            <summary>
+            Description of the product
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingProduct.ProductId">
+            <summary>
+            Product ID or sku
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingProduct.LocalizedPrice">
+            <summary>
+            Localized Price (not including tax)
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingProduct.CurrencyCode">
+            <summary>
+            ISO 4217 currency code for price. For example, if price is specified in British pounds sterling is "GBP".
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingProduct.MicrosPrice">
+            <summary>
+            Price in micro-units, where 1,000,000 micro-units equal one unit of the 
+            currency. For example, if price is "€7.99", price_amount_micros is "7990000". 
+            This value represents the localized, rounded price for a particular currency.
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchase">
+            <summary>
+            Purchase from in app billing
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.Id">
+            <summary>
+            Purchase/Order Id
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.TransactionDateUtc">
+            <summary>
+            Trasaction date in UTC
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.ProductId">
+            <summary>
+            Product Id/Sku
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.AutoRenewing">
+            <summary>
+            Indicates whether the subscritpion renewes automatically. If true, the sub is active, else false the user has canceled.
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.PurchaseToken">
+            <summary>
+            Unique token identifying the purchase for a given item
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.State">
+            <summary>
+            Gets the current purchase/subscription state
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.ConsumptionState">
+            <summary>
+            Gets the current consumption state
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.Payload">
+            <summary>
+            Developer payload
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.Abstractions.InAppBillingPurchase.ToString">
+            <summary>
+            Prints out product
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.ItemType">
+            <summary>
+            Product item type
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.ItemType.InAppPurchase">
+            <summary>
+            Single purchase (managed)
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.ItemType.Subscription">
+            <summary>
+            On going subscription
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.Abstractions.PurchaseState">
+            <summary>
+            Gets the current status of the purchase
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Purchased">
+            <summary>
+            Purchased and in good standing
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Canceled">
+            <summary>
+            Purchase was canceled
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Refunded">
+            <summary>
+            Purchase was refunded
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Purchasing">
+            <summary>
+            In the process of being processed
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Failed">
+            <summary>
+            Transaction has failed
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Restored">
+            <summary>
+            Was restored.
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Deferred">
+            <summary>
+            In queue, pending external action
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.FreeTrial">
+            <summary>
+            In free trial
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.PaymentPending">
+            <summary>
+            Pending Purchase
+            </summary>
+        </member>
+        <member name="F:Plugin.InAppBilling.Abstractions.PurchaseState.Unknown">
+            <summary>
+            Purchase state unknown
+            </summary>
+        </member>
+    </members>
+</doc>

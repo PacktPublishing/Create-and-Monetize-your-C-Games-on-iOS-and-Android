@@ -1,0 +1,266 @@
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Game.Android.Game.Android-Signed.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Engine.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Engine.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\Game.Android.csprojResolveAssemblyReference.cache
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\bin\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\res\layout\main.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\res\values\strings.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\res\drawable\icon.png
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\R.cs.flag
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\uploadflags.txt
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\XamarinTutorials\Game.Android\obj\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Game.Android.Game.Android-Signed.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Engine.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Engine.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\Game.Android.csprojResolveAssemblyReference.cache
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\bin\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\res\layout\main.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\res\values\strings.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\res\drawable\icon.png
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\R.cs.flag
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\uploadflags.txt
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\res\values\maintheme.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Course\Code\Tutorials\Game.Android\obj\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Game.Android.Game.Android-Signed.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Engine.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Engine.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\Game.Android.csprojResolveAssemblyReference.cache
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\bin\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\res\layout\main.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\res\values\strings.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\res\drawable\icon.png
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\res\values\maintheme.xml
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\R.cs.flag
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\uploadflags.txt
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\Xamarin Videos\Game.Android\obj\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\Game.Android.csprojResolveAssemblyReference.cache
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Game.Android.Game.Android-Signed.apk
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Engine.Android.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\FarseerPhysics.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Engine.Android.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\FarseerPhysics.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\FarseerPhysics.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\bin\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\res\layout\main.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\res\values\strings.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\res\drawable\icon.png
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\res\values\maintheme.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\R.cs.flag
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\uploadflags.txt
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\bin\Debug\FarseerPhysics.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume2\Game.Android\obj\Debug\android\assets\FarseerPhysics.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Game.Android.Game.Android-Signed.apk
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Engine.Android.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\FarseerPhysics.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.CurrentActivity.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.Abstractions.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.VendingLibrary.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Engine.Android.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\FarseerPhysics.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\FarseerPhysics.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\FarseerPhysics.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.CurrentActivity.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.Abstractions.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.Abstractions.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.Abstractions.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.VendingLibrary.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.VendingLibrary.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Plugin.InAppBilling.VendingLibrary.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\Game.Android.csprojResolveAssemblyReference.cache
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\Game.Android.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\Game.Android.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\bin\Game.Android.Game.Android.apk
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\res\layout\main.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\res\values\strings.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\res\drawable\icon.png
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\res\values\maintheme.xml
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\R.cs.flag
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\uploadflags.txt
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\Engine.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\FarseerPhysics.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\Game.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\OpenTK.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Game.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb

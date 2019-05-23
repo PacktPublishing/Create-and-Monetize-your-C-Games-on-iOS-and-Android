@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <!-- Unique key for cached download -->
+        <_XbdKey_firebaseanalytics>firebase-10.2.1/firebaseanalytics</_XbdKey_firebaseanalytics>
+        
+        <!-- Path to .aar file within the extracted contents of the cached download -->
+        <_XbdAarFile_firebaseanalytics>m2repository\com\google\firebase\firebase-analytics\10.2.1\firebase-analytics-10.2.1.aar</_XbdAarFile_firebaseanalytics>
+        
+        <!-- Full path to .aar file, assuming we had to download to the cache - we reset this later if it is in the sdk -->
+        <_XbdAarFileFullPath_firebaseanalytics>$(XamarinBuildDownloadDir)$(_XbdKey_firebaseanalytics)\firebase-analytics-10.2.1.aar</_XbdAarFileFullPath_firebaseanalytics>
+
+        <!-- Assembly name to embed .aar in -->
+        <_XbdAssemblyName_firebaseanalytics>Xamarin.Firebase.Analytics</_XbdAssemblyName_firebaseanalytics>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <XamarinBuildRestoreResources Include="_XbdRestoreItems_firebaseanalytics"/>
+    </ItemGroup>
+
+    <Target Name="_XbdRestoreItems_firebaseanalytics">
+        <!-- Check if the aar file is in the android sdk already and change the path to use to it, if it's found -->
+        <CreateProperty Value="$(AndroidSdkDirectory)\extras\google\$(_XbdAarFile_firebaseanalytics)" Condition="Exists('$(AndroidSdkDirectory)\extras\google\$(_XbdAarFile_firebaseanalytics)')">
+            <Output PropertyName="_XbdAarFileFullPath_firebaseanalytics" TaskParameter="Value" />
+        </CreateProperty>
+
+        <ItemGroup>
+            <XamarinBuildDownloadPartialZip Include="$(_XbdKey_firebaseanalytics)" Condition="!Exists('$(_XbdAarFileFullPath_firebaseanalytics)')">
+                <Url>https://dl-ssl.google.com/android/repository/google_m2repository_gms_v9_1_rc07_wear_2_0_1_rc3.zip</Url>
+                <ToFile>firebase-analytics-10.2.1.aar</ToFile>
+                <RangeStart>5805747</RangeStart>
+                <RangeEnd>5810469</RangeEnd>
+                <Md5>94aa1afce02d9fbe9e79b528ef3b512c</Md5>
+                <CustomErrorMessage>Please open the Android SDK Manager and install the latest version of 'Google Repository' from the 'Extras' section, and then reload your solution.</CustomErrorMessage>
+                <CustomErrorCode>XBD404</CustomErrorCode>
+            </XamarinBuildDownloadPartialZip>
+        </ItemGroup>
+
+        <ItemGroup>
+            <XamarinBuildDownloadRestoreAssemblyAar Include="$(_XbdAarFileFullPath_firebaseanalytics)">
+                <LogicalName>__AndroidLibraryProjects__.zip</LogicalName>
+                <AssemblyName>$(_XbdAssemblyName_firebaseanalytics)</AssemblyName>
+            </XamarinBuildDownloadRestoreAssemblyAar>
+        </ItemGroup>
+    </Target>
+</Project>

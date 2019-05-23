@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.InAppBilling</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.InAppBilling.CrossInAppBilling">
+            <summary>
+            Cross platform InAppBilling implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.CrossInAppBilling.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.CrossInAppBilling.Dispose">
+            <summary>
+            Dispose of everything 
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.InAppBillingImplementation">
+            <summary>
+            Implementation for Feature
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.#ctor">
+            <summary>
+            Default Constructor for In App Billing Implemenation on Android
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.InAppBillingImplementation.InTestingMode">
+            <summary>
+            Gets or sets if in testing mode. Only for UWP
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.GetProductInfoAsync(Plugin.InAppBilling.Abstractions.ItemType,System.String[])">
+            <summary>
+            Get product information of a specific product
+            </summary>
+            <param name="productIds">Sku or Id of the product</param>
+            <param name="itemType">Type of product offering</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.GetPurchasesAsync(Plugin.InAppBilling.Abstractions.ItemType,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Get all current purhcase for a specifiy product type.
+            </summary>
+            <param name="itemType">Type of product</param>
+            <param name="verifyPurchase">Interface to verify purchase</param>
+            <returns>The current purchases</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.PurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Purchase a specific product or subscription
+            </summary>
+            <param name="productId">Sku or ID of product</param>
+            <param name="itemType">Type of product being requested</param>
+            <param name="payload">Developer specific payload (can not be null)</param>
+            <param name="verifyPurchase">Interface to verify purchase</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.ConnectAsync">
+            <summary>
+            Connect to billing service
+            </summary>
+            <returns>If Success</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.DisconnectAsync">
+            <summary>
+            Disconnect from the billing service
+            </summary>
+            <returns>Task to disconnect</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.ConsumePurchaseAsync(System.String,System.String)">
+            <summary>
+            Consume a purchase with a purchase token.
+            </summary>
+            <param name="productId">Id or Sku of product</param>
+            <param name="purchaseToken">Original Purchase Token</param>
+            <returns>If consumed successful</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.ConsumePurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Consume a purchase
+            </summary>
+            <param name="productId">Id/Sku of the product</param>
+            <param name="payload">Developer specific payload of original purchase</param>
+            <param name="itemType">Type of product being consumed.</param>
+            <param name="verifyPurchase">Verify Purchase implementation</param>
+            <returns>If consumed successful</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.HandleActivityResult(System.Int32,Android.App.Result,Android.Content.Intent)">
+            <summary>
+            Must override handle activity and pass back results here.
+            </summary>
+            <param name="requestCode"></param>
+            <param name="resultCode"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.InAppBillingServiceConnection.DisconnectAsync">
+            <summary>
+            Disconnect from payment service
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Plugin.InAppBilling.InAppBillingImplementation.Purchase.PurchaseState">
+            <summary>
+            purchase state
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.InAppBillingImplementation.Purchase.PaymentState">
+            <summary>
+            for subscriptions
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.InAppBillingImplementation.InAppBillingSecurity">
+            <summary>
+            Utility security class to verify the purchases
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.InAppBillingSecurity.VerifyPurchase(System.String,System.String,System.String)">
+            <summary>
+            Verifies the purchase.
+            </summary>
+            <returns><c>true</c>, if purchase was verified, <c>false</c> otherwise.</returns>
+            <param name="publicKey">Public key.</param>
+            <param name="signedData">Signed data.</param>
+            <param name="signature">Signature.</param>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.InAppBillingSecurity.GeneratePublicKey(System.String)">
+            <summary>
+            Generates the public key.
+            </summary>
+            <returns>The public key.</returns>
+            <param name="encodedPublicKey">Encoded public key.</param>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.InAppBillingSecurity.Verify(Java.Security.IPublicKey,System.String,System.String)">
+            <summary>
+            Verify the specified publicKey, signedData and signature.
+            </summary>
+            <param name="publicKey">Public key.</param>
+            <param name="signedData">Signed data.</param>
+            <param name="signature">Signature.</param>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.InAppBillingSecurity.TransformString(System.String,System.Int32)">
+            <summary>
+            Simple string transform via:
+            http://stackoverflow.com/questions/11671865/how-to-protect-google-play-public-key-when-doing-inapp-billing
+            </summary>
+            <param name="key">key to transform</param>
+            <param name="i">XOR Offset</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

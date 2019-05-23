@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c0575212-c91c-494b-9cb9-02f0a0433297</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Game.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Base\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\LookAtCamera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\PhysicsWorld.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\PlayerControls.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\PurchaseManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\SceneTypeMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\ZippyGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\ZOrders.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Characters\Character.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Characters\Enemies\Enemy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Characters\Enemies\Goblin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Characters\Zippy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Competitive\Achievement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Competitive\CompetitiveController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Competitive\CompetitiveManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Level\Level.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Level\LevelController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\Collectibles\Coin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\Collectibles\Collectible.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\Collectibles\Treasure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\Platform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\UI\FullscreenMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\UI\HealthBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\FadeScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\GameScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\MenuScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scenes\StoreScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\GameCompleteState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\GameOverState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\LevelCompleteState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\LoadingState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\MenuState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\PlayingState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\StartState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\StoreState.cs" />
+  </ItemGroup>
+</Project>

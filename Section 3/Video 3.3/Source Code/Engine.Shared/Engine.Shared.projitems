@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f182814d-0301-46c6-8f8c-b0ba7f45ce2a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Engine.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Audio\AudioData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Audio\AudioManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Audio\AudioPlayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\BaseGame.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\Renderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\UpdateManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Canvas.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Drawables\AnimatedSprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Drawables\Drawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Drawables\Sprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Drawables\TextDisplay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Scene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Shader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Texture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graphics\Vertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ITouchListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IUpdatable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)State\State.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)State\StateManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Touch\Button.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Touch\TouchEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Touch\TouchManager.cs" />
+  </ItemGroup>
+</Project>

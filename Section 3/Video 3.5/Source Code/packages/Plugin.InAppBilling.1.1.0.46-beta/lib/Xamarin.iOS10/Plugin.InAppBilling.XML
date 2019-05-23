@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.InAppBilling</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.InAppBilling.CrossInAppBilling">
+            <summary>
+            Cross platform InAppBilling implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.CrossInAppBilling.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.CrossInAppBilling.Dispose">
+            <summary>
+            Dispose of everything 
+            </summary>
+        </member>
+        <member name="T:Plugin.InAppBilling.InAppBillingImplementation">
+            <summary>
+            Implementation for InAppBilling
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.#ctor">
+            <summary>
+            Default constructor for In App Billing on iOS
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.InAppBillingImplementation.InTestingMode">
+            <summary>
+            Gets or sets if in testing mode. Only for UWP
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.ConnectAsync">
+            <summary>
+            Connect to billing service
+            </summary>
+            <returns>If Success</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.DisconnectAsync">
+            <summary>
+            Disconnect from the billing service
+            </summary>
+            <returns>Task to disconnect</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.GetProductInfoAsync(Plugin.InAppBilling.Abstractions.ItemType,System.String[])">
+            <summary>
+            Get product information of a specific product
+            </summary>
+            <param name="productIds">Sku or Id of the product(s)</param>
+            <param name="itemType">Type of product offering</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.GetPurchasesAsync(Plugin.InAppBilling.Abstractions.ItemType,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Get all current purhcase for a specifiy product type.
+            </summary>
+            <param name="itemType">Type of product</param>
+            <param name="verifyPurchase">Interface to verify purchase</param>
+            <returns>The current purchases</returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.PurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Purchase a specific product or subscription
+            </summary>
+            <param name="productId">Sku or ID of product</param>
+            <param name="itemType">Type of product being requested</param>
+            <param name="payload">Developer specific payload</param>
+            <param name="verifyPurchase">Interface to verify purchase</param>
+            <returns></returns>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.ConsumePurchaseAsync(System.String,System.String)">
+            <summary>
+            Consume a purchase with a purchase token.
+            </summary>
+            <param name="productId">Id or Sku of product</param>
+            <param name="purchaseToken">Original Purchase Token</param>
+            <returns>If consumed successful</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.ConsumePurchaseAsync(System.String,Plugin.InAppBilling.Abstractions.ItemType,System.String,Plugin.InAppBilling.Abstractions.IInAppBillingVerifyPurchase)">
+            <summary>
+            Consume a purchase
+            </summary>
+            <param name="productId">Id/Sku of the product</param>
+            <param name="payload">Developer specific payload of original purchase</param>
+            <param name="itemType">Type of product being consumed.</param>
+            <param name="verifyPurchase">Verify Purchase implementation</param>
+            <returns>If consumed successful</returns>
+            <exception cref="T:Plugin.InAppBilling.Abstractions.InAppBillingPurchaseException">If an error occures during processing</exception>
+        </member>
+        <member name="M:Plugin.InAppBilling.InAppBillingImplementation.Dispose(System.Boolean)">
+            <summary>
+            Dispose
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:Plugin.InAppBilling.SKProductExtension.LocalizedPrice(StoreKit.SKProduct)">
+            <remarks>
+            Use Apple's sample code for formatting a SKProduct price
+            https://developer.apple.com/library/ios/#DOCUMENTATION/StoreKit/Reference/SKProduct_Reference/Reference/Reference.html#//apple_ref/occ/instp/SKProduct/priceLocale
+            Objective-C version:
+               NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+               [numberFormatter setFormatterBehavior:NSNumberFormatterBehavior10_4];
+               [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+               [numberFormatter setLocale:product.priceLocale];
+               NSString *formattedString = [numberFormatter stringFromNumber:product.price];
+            </remarks>
+        </member>
+    </members>
+</doc>

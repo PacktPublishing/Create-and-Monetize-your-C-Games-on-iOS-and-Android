@@ -1,0 +1,6 @@
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Engine.iOS\bin\Debug\Engine.iOS.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Engine.iOS\bin\Debug\Engine.iOS.pdb
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Engine.iOS\obj\Debug\optimized\
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Engine.iOS\obj\Debug\Engine.iOS.csprojResolveAssemblyReference.cache
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Engine.iOS\obj\Debug\Engine.iOS.dll
+C:\Users\amerigo\Documents\Packt\XamarinVolume3\Engine.iOS\obj\Debug\Engine.iOS.pdb

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.InAppBilling</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.InAppBilling.CrossInAppBilling">
+            <summary>
+            Cross platform InAppBilling implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.InAppBilling.CrossInAppBilling.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="M:Plugin.InAppBilling.CrossInAppBilling.Dispose">
+            <summary>
+            Dispose of everything 
+            </summary>
+        </member>
+    </members>
+</doc>
